@@ -73,23 +73,28 @@
     color: white;
     transition: 0.5s ease;
   }
+
   #search-area:focus{
       color:rgb(184, 55, 243);
   }
+
   #search-button:hover{
     border: 1px solid transparent;
     background-color:cyan;
   }
+
   @media only screen and (max-width: 1200px) {
     #photo-text{
       display: none;
     }
   }
+
   @media only screen and (max-width: 1200px) {
     #search-area{
       display: none;
     }
   }
+
   @media only screen and (max-width: 1200px) {
     #search-button{
       display: none;
@@ -113,6 +118,7 @@
   .main{
       background-color:;
   }
+
   @media only screen and (max-width: 550px) {
     .popular-book-body{
       grid-template-columns: 2fr;
@@ -123,6 +129,7 @@
     }
     
   }
+  
   @media only screen and (max-width: 1200px) {
     .popular-book-body{
       grid-template-columns: 2fr;
@@ -141,12 +148,14 @@
     background-color:#F0DCFF; 
     border-radius: 5px;
 }
+
 .filter img{
     float:left;
     height:35px;
     width: 35px;
     padding-top: 5px;
 }
+
 .filter h4{
     padding-top: 5px;
     padding-left: 50px;
